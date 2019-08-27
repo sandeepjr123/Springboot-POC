@@ -20,7 +20,7 @@ public class Topiccontroller {
 	
 	
 	
-//Get Method	
+//Get Method Call
 	@RequestMapping("/Topics")
 	
 	
