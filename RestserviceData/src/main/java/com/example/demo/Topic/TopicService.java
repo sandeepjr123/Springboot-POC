@@ -19,7 +19,7 @@ public class TopicService {
 	private TopicRepository topicRepository ;
 	
 	
-	//Get method 
+	//Get method call
 	
 public List<Topic> GetallTopics() {
 	List<Topic> topics  =new ArrayList<> ();
