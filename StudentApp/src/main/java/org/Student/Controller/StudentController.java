@@ -25,6 +25,8 @@ public class StudentController {
 	@Autowired
 	public StudentRepository studentrepository;
 	
+	//GET call
+	
 	@GetMapping("/GetallDetails")
 	public Iterable<StudentModel> GetDetails(){
 		return studentrepository.findAll();
